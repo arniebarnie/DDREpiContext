@@ -1,0 +1,68 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/arnavrastogi/Desktop/DDREpiContext
+CMake Warning at /usr/local/lib/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake:59 (message):
+  Target Boost::filesystem already has an imported location
+  '/usr/local/lib/libboost_filesystem-mt.dylib', which will be overwritten
+  with '/usr/local/lib/libboost_filesystem.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:261 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/boost_iostreams-1.71.0/libboost_iostreams-variant-shared.cmake:59 (message):
+  Target Boost::iostreams already has an imported location
+  '/usr/local/lib/libboost_iostreams-mt.dylib', which will be overwritten
+  with '/usr/local/lib/libboost_iostreams.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_iostreams-1.71.0/boost_iostreams-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:261 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake:59 (message):
+  Target Boost::system already has an imported location
+  '/usr/local/lib/libboost_system-mt.dylib', which will be overwritten with
+  '/usr/local/lib/libboost_system.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_system-1.71.0/boost_system-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:261 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake:59 (message):
+  Target Boost::regex already has an imported location
+  '/usr/local/lib/libboost_regex-mt.dylib', which will be overwritten with
+  '/usr/local/lib/libboost_regex.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_regex-1.71.0/boost_regex-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:261 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Error at /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package):
+  Could not find a package configuration file provided by "boost_python"
+  (requested version 1.71.0) with any of the following names:
+
+    boost_pythonConfig.cmake
+    boost_python-config.cmake
+
+  Add the installation prefix of "boost_python" to CMAKE_PREFIX_PATH or set
+  "boost_python_DIR" to a directory containing one of the above files.  If
+  "boost_python" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:261 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/arnavrastogi/Desktop/DDREpiContext/cmake-build-debug/CMakeFiles/CMakeOutput.log".
